@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(315deg, #CBC3E3 30%, lightgrey 90%);
 }
 
 .quiz {
@@ -41,6 +42,7 @@ ul {
 ul li {
     font-size: 1.2em;
     margin: 1rem 0;
+    /* cursor: pointer; */
 }
 
 ul li label {
@@ -60,9 +62,4 @@ button {
 
 button:hover {
     background-color: purple;
-}
-
-button:focus {
-    background-color: #5e3370;
-    outline: none;
 }
